@@ -4,7 +4,7 @@ import pickle
 import joblib
 import sys
 import io
-# https://www.tutorialspoint.com/flask
+import xgboost
 import flask
 app = Flask(__name__)
 
@@ -51,7 +51,7 @@ def index():
 @app.route('/predict', methods=['POST'])
 def predict():
     final_df = preprocess()
-    model = joblib.load(r"F:\self_project\mercedes-benz-greener-manufacturing\xbg_best.pkl")
+    model = joblib.load("xbg_best.pkl")
     ypred = float(model.predict(final_df))
     ypred = round(ypred,2)
     print(ypred)
