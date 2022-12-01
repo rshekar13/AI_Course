@@ -14,3 +14,7 @@ ensure their performance. It is very difficult with manual methods to optimize t
 # Metric:
 This problem is regression kind and we can use Mean square error as loss function and R2(R Sqaure)  as metric.
 
+# EDA:
+The data is cleaned and analysed using plotting . Found that most of the features are binary features and we have some categorical feaures, this features are onehot encode.
+
+
