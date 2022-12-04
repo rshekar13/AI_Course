@@ -6,7 +6,7 @@ In order to ensure the reliability and safety of the vehicle and its components,
 ensure their performance. It is very difficult with manual methods to optimize the test and test time spend on test procedures  for each customization option.
 
 # Problem statement:
- Using the Machine learning model, for various customization models and test predocedures  determine the best test time and minimal carbon dioxide emission without compromising safety criteria.
+ Using the Machine learning model, for various customization models and test procedures  determine the best test time and minimal carbon dioxide emission without compromising safety criteria.
 
 
 
