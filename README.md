@@ -25,3 +25,8 @@ paste any test case from the test data as below and get the prediction time
 
 
 
+# Reference
+1. Kaggle: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing
+2. 1st place approach: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/37700
+3. 10th pace approach: https://www.kaggle.com/code/adityakumarsinha/stacked-then-averaged-models-private-lb-0-554/script
+
