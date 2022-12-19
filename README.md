@@ -1,20 +1,27 @@
 # Mercedes-Benz-Greener-Manufacturing
-# Intoduction:
-European-based Mercedes-Benze is a premium automaker. Nearly 2000 patents are applied for annually by Benze, a pioneer in the premium automaker industry. 
-customers can choose their car from a choice of customizing options and opinions.
-In order to ensure the reliability and safety of the vehicle and its components, Strict testing methods are used by Benze on a variety of models and custom models to 
-ensure their performance. It is very difficult with manual methods to optimize the test and test time spend on test procedures  for each customization option.
+Read the blog to get the overview of the project
+https://medium.com/@rajashekar.r10/mercedes-benz-greener-manufacturing-project-400b5e18d8fe
 
-# Problem statement:
- Using the Machine learning model, for various customization models and test procedures  determine the best test time and minimal carbon dioxide emission without compromising safety criteria.
+# How to run the project
+Donwnload the entire project and and save in the local pc.
+
+To get the  prediction of test time for given case
+
+open the anaconda command prompt and change the working directory location to the path of project directory
+ 
+ From anaconda promp run the commnand
+ >python model_deployment/app.py
+   
+ the model is deployed in local pc and open the web page uisng(http://localhost:8082/index)
+ ![image](https://user-images.githubusercontent.com/105404888/208474173-6c634065-9b3e-446e-bbbf-1789f83a232b.png)
+
+paste any test case from the test data as below and get the prediction time
 
 
+![image](https://user-images.githubusercontent.com/105404888/208474667-18c0c2ee-cba6-4f2e-af87-d41b837fec64.png)
 
 
-# Metric:
-This problem is regression kind and we can use Mean square error as loss function and R2(R Sqaure)  as metric.
+![image](https://user-images.githubusercontent.com/105404888/208475046-aa973d77-d67d-40b9-9703-88ff04838946.png)
 
-# EDA:
-The data is cleaned and analysed using plotting . Found that most of the features are binary features and we have some categorical feaures, this features are onehot encode.
 
 
