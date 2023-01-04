@@ -6,14 +6,14 @@ https://medium.com/@rajashekar.r10/mercedes-benz-greener-manufacturing-project-4
 # How to run the project
 Donwnload the entire project and and save in the local pc.
 
-To get the  prediction of test time for given case
-
-open the anaconda command prompt and change the working directory location to the path of project directory
+open the anaconda command prompt and change the working directory location to the path of project directory.
  
- From anaconda promp run the commnand
+ To get the  prediction of test time for given case
+ 
+ open anaconda promp and  run the below commnand
  >python model_deployment/app.py
    
- the model is deployed in local pc and open the web page uisng(http://localhost:8082/index)
+ the model is deployed in the local pc server  and open the web page uisng(http://localhost:8082/index)
  ![image](https://user-images.githubusercontent.com/105404888/208474173-6c634065-9b3e-446e-bbbf-1789f83a232b.png)
 
 paste any test case from the test data as below and get the prediction time
