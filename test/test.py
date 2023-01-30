@@ -38,7 +38,7 @@ def preprocessing(test_df):
     test_df.drop(single_val_features,axis =1,inplace=True)
     test_df.drop(['X4','ID'],axis=1,inplace= True)
     test_df.drop(single_val_feat_from_bin,axis =1,inplace= True)
-    encode= joblib.load('cat_encode1.pkl')
+    encode= joblib.load('model_deployment\cat_encode1.pkl')
     x_test_cat_encd = encode.transform(test_df[cat_list])
     
     x_test_cat_encd  =pd.DataFrame(x_test_cat_encd,columns=encode.get_feature_names()) 
